@@ -188,7 +188,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-<table)
+<table>
 	<tr>
 	<th valign="top" width="100%">Tuesday, 12 June 2018 </th>
 	</tr>
@@ -212,9 +212,7 @@ Wednesday, 13 June 2018 </th>
 	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">Introduction to R</td></tr>
 	<tr><td valign="top">15:00 - 15:30</td> <td valign="top">Break</td></tr>
 	<tr><td valign="top">15:30 - 17:30 </td> <td valign="top">Introduction to R </td></tr>	
-
- 	<tr>
-	<th valign="top" width="100%">Thursday, 14 June 2018</th>
+ 	<tr>	<th valign="top" width="100%">Thursday, 14 June 2018</th>
 	</tr>
 	
 <tr><td valign="top">9:00 - 10:30</td> <td valign="top">Introduction to  R</td></tr>
