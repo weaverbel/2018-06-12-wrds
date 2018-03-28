@@ -1,13 +1,13 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "UQ"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Theo Murphy Winter School in Research Data Science"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Room 343, GP South (Building 78), The University of Queensland, St Lucia Campus"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-27.5153012,152.9668827" 
 humandate: "12-14 June, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9-5"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "11.00 am - 5.30 pm (days 1-2), 9.00 am - 3.00 pm (day 3)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-06-12     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-14       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Stephane Guillou", "Sandra Brosda", "Leah Roberts", "Belinda Weaver"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
