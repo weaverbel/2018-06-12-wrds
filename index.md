@@ -7,7 +7,7 @@ country: "au"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-27.5153012,152.9668827" 
 humandate: "12-14 June, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "11.00 am - 5.30 pm (days 1-2), 9.00 am - 3.00 pm (day 3)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "see schedule"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-06-12     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-14       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Stephane Guillou", "Sandra Brosda", "Leah Roberts", "Belinda Weaver"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -190,21 +190,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <table>
 	<tr>
-	<th valign="top" width="100%">Tuesday, 12 June 2018 </th>
+	<th valign="top">Tuesday, 12 June 2018 </th>
 	</tr>
+	</table>
+		<table>
 	<tr><td valign="top">11:15 – 12:45</td> <td valign="top">The Unix Shell</td></tr>
 	<tr><td valign="top">12:45 - 13:30</td> <td valign="top">Lunch</td></tr>
 	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">The Unix Shell</td></tr>
 	<tr><td valign="top">15:00 - 15:30</td> <td valign="top">Break</td></tr>
 	<tr><td valign="top">15:30 - 17:30</td> <td valign="top">Version Control with Git</td></tr>
+	</table>
 	
-	
-
+	<table>
 	<tr>
-	<th valign="top" width="100%">
-Wednesday, 13 June 2018 </th>
+	<th valign="top">Wednesday, 13 June 2018 </th>
 	</tr>
+	</table>
 	
+	<table>
 <tr><td valign="top">9:00 - 10:30</td> <td valign="top">Version Control with Git</td></tr>
 	<tr><td valign="top">10:30 - 11:00</td> <td valign="top">Break</td></tr>
 	<tr><td valign="top">11:00 - 12:30</td> <td valign="top">Introduction to R </td></tr>
@@ -212,9 +215,11 @@ Wednesday, 13 June 2018 </th>
 	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">Introduction to R</td></tr>
 	<tr><td valign="top">15:00 - 15:30</td> <td valign="top">Break</td></tr>
 	<tr><td valign="top">15:30 - 17:30 </td> <td valign="top">Introduction to R </td></tr>	
- 	<tr>	<th valign="top" width="100%">Thursday, 14 June 2018</th>
+	</table>
+ 	<tr>	<th valign="top">Thursday, 14 June 2018</th>
 	</tr>
-	
+	</table>
+	<table>
 <tr><td valign="top">9:00 - 10:30</td> <td valign="top">Introduction to  R</td></tr>
 	<tr><td valign="top">10:30 - 11:00</td> <td valign="top">Break</td></tr>
 	<tr><td valign="top">11:00 - 12:30</td> <td valign="top">Introduction to R </td></tr>
