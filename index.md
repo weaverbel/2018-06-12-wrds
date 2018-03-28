@@ -188,6 +188,44 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
+<table)
+	<tr>
+	<th valign="top" width="100%">Tuesday, 12 June 2018 </th>
+	</tr>
+	<tr><td valign="top">11:15 – 12:45</td> <td valign="top">The Unix Shell</td></tr>
+	<tr><td valign="top">12:45 - 13:30</td> <td valign="top">Lunch</td></tr>
+	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">The Unix Shell</td></tr>
+	<tr><td valign="top">15:00 - 15:30</td> <td valign="top">Break</td></tr>
+	<tr><td valign="top">15:30 - 17:30</td> <td valign="top">Version Control with Git</td></tr>
+	
+	
+
+	<tr>
+	<th valign="top" width="100%">
+Wednesday, 13 June 2018 </th>
+	</tr>
+	
+<tr><td valign="top">9:00 - 10:30</td> <td valign="top">Version Control with Git</td></tr>
+	<tr><td valign="top">10:30 - 11:00</td> <td valign="top">Break</td></tr>
+	<tr><td valign="top">11:00 - 12:30</td> <td valign="top">Introduction to R </td></tr>
+	<tr><td valign="top">12:30 - 13:30</td> <td valign="top">Lunch</td></tr>
+	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">Introduction to R</td></tr>
+	<tr><td valign="top">15:00 - 15:30</td> <td valign="top">Break</td></tr>
+	<tr><td valign="top">15:30 - 17:30 </td> <td valign="top">Introduction to R </td></tr>	
+
+ 	<tr>
+	<th valign="top" width="100%">Thursday, 14 June 2018</th>
+	</tr>
+	
+<tr><td valign="top">9:00 - 10:30</td> <td valign="top">Introduction to  R</td></tr>
+	<tr><td valign="top">10:30 - 11:00</td> <td valign="top">Break</td></tr>
+	<tr><td valign="top">11:00 - 12:30</td> <td valign="top">Introduction to R </td></tr>
+	<tr><td valign="top">12:30 - 13:30</td> <td valign="top">Lunch</td></tr>
+	<tr><td valign="top">13:30 - 15:00 </td> <td valign="top">Introduction to R</td></tr>
+
+</table>
+
+
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
@@ -203,13 +241,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+
 
 {% comment %}
   Collaborative Notes
